@@ -1,0 +1,39 @@
+1.为什么Pet（宠物类）定义为一个抽象类？而不把猫类、狗类、企鹅类定义为抽象类？
+
+猫类、狗类、企鹅类 可以创建对象(new)。------> 有猫、狗、企鹅
+Pet（宠物类）------->现实世界中没有一种动物叫宠物。宠物是一种概念，而不是一个鲜活的对象。
+所以不能实例化，所有不能实例化都定义为抽象类。抽象类用abstract修饰。
+
+2.抽象类可以没有抽象方法吗？
+抽象类可以没有抽象方法。
+接口里面:所有的方法必须为抽象方法。
+
+3.为什么会抽象方法呢？
+抽象方法定义形式  abstract 方法名（）；
+抽象方法强迫子类必须重写抽象方法。-------->比如图形类，里面只能确定有求面积和求周长的方法，
+但是不能确定求面积和求周长公式是什么？因为实例化到具体图形（比如三角形、圆）。求面积和求周长公式不同。所以把实现放到具体的图形类里面去实现。
+
+
+4.Pet pet=new Dog();
+pet.eat();
+
+
+5.狗可以玩接飞盘、企鹅只会游泳
+Pet pet=new Dog();
+想要通过多态去调用子类特有的方法。
+（（Dog）pet）.catchingFlyDisc();
+
+
+6.instanceof 这个关键字去判断  pet属于Dog还是Penguin
+Pet pet=new Penguin();
+（（Dog）pet）.catchingFlyDisc();
+以上两行代码会报错
+
+
+Pet pet=new Penguin();
+if (pet instanceOf Penguin){
+    （（Penguin）pet）.swimming();
+}else if(pet instanceOf Dog){
+（（Dog）pet）.catchingFlyDisc();
+}
+

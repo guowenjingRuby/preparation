@@ -1,0 +1,1 @@
+1.Comparator 和comparable的区别，找个视频看看。
