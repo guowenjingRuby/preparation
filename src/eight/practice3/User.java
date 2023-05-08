@@ -1,7 +1,6 @@
-package eight.practices3;
+package eight.practice3;
 
 import java.util.Date;
-import java.util.Objects;
 
 public class User {
     private String userName;

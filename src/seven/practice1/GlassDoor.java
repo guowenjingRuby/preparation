@@ -1,4 +1,4 @@
-package seven.pratice1;
+package seven.practice1;
 
 class GlassDoor extends Door{
     @Override

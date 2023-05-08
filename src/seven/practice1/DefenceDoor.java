@@ -1,4 +1,4 @@
-package seven.pratice1;
+package seven.practice1;
 /*
 * java里面继承是单继承，一个子类只能继承一个父类，不能继承多个父类
 * 那我们就引入了接口。一个类可以继承多个接口

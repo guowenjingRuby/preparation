@@ -1,4 +1,4 @@
-package eight.practices3;
+package eight.practice3;
 
 
 import java.util.Date;

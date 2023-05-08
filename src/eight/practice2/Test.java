@@ -1,4 +1,4 @@
-package eight.pratices2;
+package eight.practice2;
 
 import java.util.ArrayList;
 import java.util.Scanner;

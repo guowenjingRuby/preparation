@@ -1,4 +1,4 @@
-package seven.pratice1;
+package seven.practice1;
 
 public class Test {
     public static void main(String[] args) {

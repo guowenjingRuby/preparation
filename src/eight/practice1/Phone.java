@@ -1,4 +1,4 @@
-package eight.pratices;
+package eight.practice1;
 
 public class Phone {
     private String name;

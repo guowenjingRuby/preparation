@@ -1,4 +1,4 @@
-package seven.pratice2;
+package seven.practice2;
 
 public interface UsbInterface {
 
