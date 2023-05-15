@@ -2,7 +2,6 @@ package thirteen;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.InputMismatchException;
 
 /*
 * javaAPI(java application Progress Interface)
@@ -48,7 +47,7 @@ import java.util.InputMismatchException;
 * File(String parent,String child)
 * File(File parent, String child)
 * */
-public class Demo {
+public class Demo1 {
 
     public static void main(String[] args) {
         //在当前目录下创建一个11.txt对象,
@@ -121,12 +120,13 @@ public class Demo {
         }
 
         if(file_2.isDirectory()){
-            System.out.println("是目录");
+            System.out.println("是文件夹");
         }
 
         if(file_2.isFile()){
             System.out.println("是文件");
         }
+
     }
 
 
