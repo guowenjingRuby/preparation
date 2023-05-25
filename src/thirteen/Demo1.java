@@ -52,7 +52,7 @@ public class Demo1 {
     public static void main(String[] args) {
         //在当前目录下创建一个11.txt对象,
 //        File file_1=new File(".\\11.txt");
-        File file_1=new File("D:\\郭文静\\preparation4.27\\src\\thirteen\\11.txt");
+        File file_1=new File("\\li");
         /*
         * 运行之后，并没有在指定目录下创建11.txt。File file_1=new File("11.txt");没有进行io操作。本质上只是一个虚拟的对象,
         * */
@@ -63,6 +63,11 @@ public class Demo1 {
             System.out.println("文件创建成功");
         } catch (IOException e) {//Exception 能否捕获到ioException
             e.printStackTrace();
+        }
+        if(file_1.exists()){
+            System.out.println("是");
+        }else{
+            System.out.println("否");
         }
 
         /*

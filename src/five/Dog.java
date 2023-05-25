@@ -47,9 +47,9 @@ public class Dog extends Pets{
         System.out.print("我的名字叫"+getName()+",健康值是"+getHealth()+",我和主人的亲密度是"+getLove()+",品种："+strain);
 
     }
-//    static void test(){
+//    static void test.txt(){
 //        this.printInfo();
-//        super.test();
+//        super.test.txt();
 //        System.out.println("测试实例方法中是否this和super是否可以共存，并且不要求位置在第一行");
 //    }
 }

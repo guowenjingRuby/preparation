@@ -69,7 +69,7 @@ public abstract class  Pets {
 //        System.out.print("我的名字叫"+name+",健康值是"+health+",我和主人的亲密度是"+love);
 //    }
 
-//    void test(){
+//    void test.txt(){
 //        printInfo();
 //    }
         void test(){
